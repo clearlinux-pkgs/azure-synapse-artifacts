@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-artifacts
 Version  : 0.4.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/aa/ad/8a236277704dcd1ead333ce3db61e35e12a44214af803ee37816a4dd890b/azure-synapse-artifacts-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/aa/ad/8a236277704dcd1ead333ce3db61e35e12a44214af803ee37816a4dd890b/azure-synapse-artifacts-0.4.0.zip
 Summary  : Microsoft Azure Synapse Artifacts Client Library for Python
@@ -12,10 +12,10 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-synapse-artifacts-python = %{version}-%{release}
 Requires: azure-synapse-artifacts-python3 = %{version}-%{release}
-Requires: azure-common~
+Requires: azure-common
 Requires: azure-core
 Requires: msrest
-BuildRequires : azure-common~
+BuildRequires : azure-common
 BuildRequires : azure-core
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992558
+export SOURCE_DATE_EPOCH=1608002641
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
