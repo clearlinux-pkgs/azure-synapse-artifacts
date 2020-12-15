@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-artifacts
 Version  : 0.4.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/aa/ad/8a236277704dcd1ead333ce3db61e35e12a44214af803ee37816a4dd890b/azure-synapse-artifacts-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/aa/ad/8a236277704dcd1ead333ce3db61e35e12a44214af803ee37816a4dd890b/azure-synapse-artifacts-0.4.0.zip
 Summary  : Microsoft Azure Synapse Artifacts Client Library for Python
